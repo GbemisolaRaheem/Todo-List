@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(195, 195, 168);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-list{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 400px;
+    height: 700px;
+    padding: 20px;
+    position: relative;
+}
+#task{
+    width: 270px;
+    border: 1;
+    height: 30px;
+    border-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 5px;
+    cursor: text;
+}
+#addBtn{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.lists{
+    margin-top: 10px;
+}
+.header-2{
+    padding-bottom: 10px;
+}
